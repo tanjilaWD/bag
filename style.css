@@ -145,3 +145,7 @@ section{
     color: var(--text-color);
     line-height: 30px;
 }
+.Contact{
+    padding: 80px 17%;
+    background: var(--text-color);
+}
