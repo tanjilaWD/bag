@@ -197,3 +197,14 @@ section{
     font-weight: 600;
     cursor: pointer;
 }
+.last{
+    text-align: center;
+    padding: 17px;
+    background: #757575;
+}
+.last p{
+    color: var(--text-color);
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
