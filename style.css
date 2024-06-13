@@ -149,3 +149,26 @@ section{
     padding: 80px 17%;
     background: var(--text-color);
 }
+.main-contact{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+.contact-content li{
+    margin-bottom: 15px;
+    
+}
+.contact-content li a{
+    display: block;
+    color: var(--bg-color);
+    font-size: var(--p-font);
+    font-weight: 600;
+    transition: all .40s ease;
+}
+.contact-content li a:hover{
+    transform: translateX(-10px);
+}
+.action form{
+    text-align: center;
+}
