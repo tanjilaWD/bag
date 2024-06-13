@@ -120,3 +120,28 @@ section{
 .box:hover{
     transform: translateY(-9px);
 }
+.about{
+    background: #f5ebeb;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.about-content{
+    text-align: center;
+
+}
+.about-content h2{
+    font-size: var(--main-font);
+    margin-bottom: 30px;
+    
+
+}
+.about-content p{
+    max-width: 600px;
+    font-size:var(--p-font) ;
+    font-weight: 600px;
+    color: var(--text-color);
+    line-height: 30px;
+}
