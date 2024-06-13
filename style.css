@@ -37,3 +37,35 @@ header{
     font-weight: 600;
     line-height: 0.8;
 }
+#menu-icon{
+    font-size: 38px;
+    color: var(--text-color);
+    z-index: 10001;
+    display: none;
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    font-size: var(--p-font);
+    color: var(--text-color);
+    font-weight: 600;
+    padding: 10px 15px;
+    margin: 0 10px;
+    transition: all .40s ease;
+}
+.navbar a:hover{
+    background: var(--text-color);
+    color: #ffffff;
+}
+.icons{
+    display: inline-block;
+}
+.icons i{
+    color: var(--text-color);
+    font-size: 24px;
+    margin-left: 15px;
+}
+.icons i:hover{
+    opacity: 0.7;
+}
