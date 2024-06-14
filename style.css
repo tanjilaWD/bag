@@ -216,7 +216,7 @@ section{
         padding: 15px 8%;
     }
     .navbar{
-        top:-500;
+        top:-500px;
         left: 0;
         right: 0;
         position: absolute;
